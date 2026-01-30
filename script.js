@@ -25,3 +25,27 @@ function loadAI(type) {
             });
         });
 }
+function globalSearchAI() {
+    let input = document.getElementById("globalSearch").value.toLowerCase();
+    let resultsDiv = document.getElementById("searchResults");
+    resultsDiv.innerHTML = "";
+
+    if (input.length === 0) return;
+
+    fetch("data.json")
+        .then(res => res.json())
+        .then(data => {
+            for (let category in data) {
+                data[category].forEach(ai => {
+                    if (ai.name.toLowerCase().includes(input)) {
+                        let a = document.createElement("a");
+                        a.href = ai.url;
+                        a.target = "_blank";
+                        a.className = "ai-item";
+                        a.innerText = `${ai.name} (${category})`;
+                        resultsDiv.appendChild(a);
+                    }
+                });
+            }
+        });
+}

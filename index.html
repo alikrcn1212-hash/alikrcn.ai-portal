@@ -9,11 +9,20 @@
 
     <h1>🤖 AI Portal</h1>
     <p>En iyi yapay zekâ araçlarını tek yerde keşfet</p>
+<input 
+    type="text"
+    id="globalSearch"
+    placeholder="🔍 Tüm yapay zekâlarda ara..."
+    onkeyup="globalSearchAI()"
+    style="padding:12px; width:340px; border-radius:10px; border:none; margin:20px;"
+>
+
+<div id="searchResults" class="menu"></div>
 
     <div class="menu">
         <a href="images.html">🖼️ Resim Yapan AI’lar</a>
         <a href="video.html">🎬 Video Yapan AI’lar</a>
     </div>
-
+<script src="script.js"></script>
 </body>
 </html>
