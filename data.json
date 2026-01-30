@@ -1,0 +1,46 @@
+{
+  "images": [
+    {
+      "name": "Midjourney",
+      "url": "https://www.midjourney.com"
+    },
+    {
+      "name": "DALL·E",
+      "url": "https://openai.com/dall-e"
+    },
+    {
+      "name": "Leonardo AI",
+      "url": "https://leonardo.ai"
+    },
+    {
+      "name": "Bing Image Creator",
+      "url": "https://www.bing.com/images/create"
+    },
+    {
+      "name": "Playground AI",
+      "url": "https://playgroundai.com"
+    }
+  ],
+  "videos": [
+    {
+      "name": "Runway",
+      "url": "https://runwayml.com"
+    },
+    {
+      "name": "Pika",
+      "url": "https://pika.art"
+    },
+    {
+      "name": "Synthesia",
+      "url": "https://www.synthesia.io"
+    },
+    {
+      "name": "Kaiber",
+      "url": "https://kaiber.ai"
+    },
+    {
+      "name": "Luma AI",
+      "url": "https://lumalabs.ai"
+    }
+  ]
+}
