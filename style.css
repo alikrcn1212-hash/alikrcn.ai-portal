@@ -33,3 +33,21 @@ p {
     background-color: #1e40af;
     transform: scale(1.05);
 }
+.ai-item {
+    display: block;
+    background: #1f1f1f;
+    color: white;
+    padding: 15px;
+    margin: 12px auto;
+    width: 320px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.ai-item:hover {
+    background: #2a2a2a;
+    transform: scale(1.03);
+}
