@@ -5,23 +5,32 @@
     <title>Video Yapan AI'lar</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="loadAI('videos')">
+
+<body>
 
     <h1>🎬 Video Yapan Yapay Zekâlar</h1>
     <p>Metinden ve görselden video üreten yapay zekâ araçları</p>
-<input 
-    type="text" 
-    id="searchInput" 
-    placeholder="🔍 Yapay zekâ ara..." 
-    onkeyup="searchAI()"
-    style="padding:10px; width:300px; border-radius:8px; border:none; margin:20px;"
->
 
-<div class="menu" id="aiContainer"></div>
+    <input 
+        type="text" 
+        id="searchInput" 
+        placeholder="🔍 Yapay zekâ ara..." 
+        onkeyup="searchAI()"
+        style="padding:10px; width:300px; border-radius:8px; border:none; margin:20px;"
+    >
+
+    <div class="menu" id="aiContainer"></div>
 
     <br>
     <a href="index.html">⬅️ Ana Sayfa</a>
-<script src="script.js"></script>
+
+    <!-- ÖNCE script.js -->
+    <script src="script.js"></script>
+
+    <!-- SONRA video AI'ları yükle -->
+    <script>
+        loadAI("videos");
+    </script>
 
 </body>
 </html>

@@ -5,23 +5,32 @@
     <title>Resim Yapan AI'lar</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="loadAI('images')">
+
+<body>
 
     <h1>🖼️ Resim Yapan Yapay Zekâlar</h1>
     <p>Metinden görsel üreten popüler yapay zekâ araçları</p>
-<input 
-    type="text" 
-    id="searchInput" 
-    placeholder="🔍 Yapay zekâ ara..." 
-    onkeyup="searchAI()"
-    style="padding:10px; width:300px; border-radius:8px; border:none; margin:20px;"
->
 
-<div class="menu" id="aiContainer"></div>
+    <input 
+        type="text" 
+        id="searchInput" 
+        placeholder="🔍 Yapay zekâ ara..." 
+        onkeyup="searchAI()"
+        style="padding:10px; width:300px; border-radius:8px; border:none; margin:20px;"
+    >
+
+    <div class="menu" id="aiContainer"></div>
 
     <br>
     <a href="index.html">⬅️ Ana Sayfa</a>
-<script src="script.js"></script>
+
+    <!-- ÖNCE JS DOSYASI -->
+    <script src="script.js"></script>
+
+    <!-- SONRA loadAI ÇAĞRISI -->
+    <script>
+        loadAI("images");
+    </script>
 
 </body>
 </html>
