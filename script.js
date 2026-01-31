@@ -20,7 +20,13 @@ function loadAI(type) {
                 a.href = ai.url;
                 a.target = "_blank";
                 a.className = "ai-item";
-                a.innerText = ai.name;
+                a.innerHTML = `
+    <span>${ai.name}</span>
+    <span class="badge ${ai.price}">
+        ${ai.price === "free" ? "Ücretsiz" : "Ücretli"}
+    </span>
+`;
+
                 container.appendChild(a);
             });
         });

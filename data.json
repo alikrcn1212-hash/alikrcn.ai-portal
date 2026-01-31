@@ -1,46 +1,54 @@
-{
-  "images": [
-    {
-      "name": "Midjourney",
-      "url": "https://www.midjourney.com"
-    },
-    {
-      "name": "DALL·E",
-      "url": "https://openai.com/dall-e"
-    },
-    {
-      "name": "Leonardo AI",
-      "url": "https://leonardo.ai"
-    },
-    {
-      "name": "Bing Image Creator",
-      "url": "https://www.bing.com/images/create"
-    },
-    {
-      "name": "Playground AI",
-      "url": "https://playgroundai.com"
-    }
-  ],
-  "videos": [
-    {
-      "name": "Runway",
-      "url": "https://runwayml.com"
-    },
-    {
-      "name": "Pika",
-      "url": "https://pika.art"
-    },
-    {
-      "name": "Synthesia",
-      "url": "https://www.synthesia.io"
-    },
-    {
-      "name": "Kaiber",
-      "url": "https://kaiber.ai"
-    },
-    {
-      "name": "Luma AI",
-      "url": "https://lumalabs.ai"
-    }
-  ]
-}
+"images": [
+  {
+    "name": "Midjourney",
+    "url": "https://www.midjourney.com",
+    "price": "paid"
+  },
+  {
+    "name": "DALL·E",
+    "url": "https://openai.com/dall-e",
+    "price": "free"
+  },
+  {
+    "name": "Leonardo AI",
+    "url": "https://leonardo.ai",
+    "price": "paid"
+  },
+  {
+    "name": "Bing Image Creator",
+    "url": "https://www.bing.com/images/create",
+    "price": "free"
+  },
+  {
+    "name": "Playground AI",
+    "url": "https://playgroundai.com",
+    "price": "free"
+  }
+]
+"videos": [
+  {
+    "name": "Runway",
+    "url": "https://runwayml.com",
+    "price": "paid"
+  },
+  {
+    "name": "Pika",
+    "url": "https://pika.art",
+    "price": "free"
+  },
+  {
+    "name": "Synthesia",
+    "url": "https://www.synthesia.io",
+    "price": "paid"
+  },
+  {
+    "name": "Kaiber",
+    "url": "https://kaiber.ai",
+    "price": "paid"
+  },
+  {
+    "name": "Luma AI",
+    "url": "https://lumalabs.ai",
+    "price": "free"
+  }
+]
