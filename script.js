@@ -1,3 +1,4 @@
+alert("script.js çalıştı");
 function searchAI() {
     let input = document.getElementById("searchInput").value.toLowerCase();
     let items = document.getElementsByClassName("ai-item");
